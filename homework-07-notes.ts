@@ -341,3 +341,71 @@
 
 //ACTUAL RESULT:
 //PENDING — the final commit and push have not been executed yet.
+
+//STEP 25 — Verify the actual RiskCalculator test file
+//Task: Verify the contents of risk-calculator.test.ts directly from the project folder.
+
+//Terminal commands:
+//Get-Content .\test\risk-calculator\risk-calculator.test.ts
+//git show HEAD:test/risk-calculator/risk-calculator.test.ts
+
+//EXPECTED RESULT:
+//The actual local test file should contain all completed LOW, MEDIUM and HIGH
+//RiskCalculator test cases.
+
+//The Git version of the file should contain the same completed test cases.
+
+//ACTUAL RESULT:
+//PENDING — the local file and the Git version will be compared.
+
+
+//STEP 26 — Open the correct Git project in WebStorm
+//Task: Open the actual Git repository instead of the outer project folder.
+//
+//Correct project path: C:\,,,\WebstormProjects\calc-ts-jest-template\calc-ts-jest-template
+
+//The inner folder contains:
+//- .git
+//- src
+//- test
+//- package.json
+//- homework-07-notes.ts
+
+//IMPORTANT:
+//The outer folder and the inner Git repository are two different folders.
+//WebStorm was previously editing files from the outer folder,
+//while Git commands were working with the inner Git repository.
+
+//EXPECTED RESULT:
+//WebStorm opens the inner folder as the project.
+//The files displayed in WebStorm are the same physical files
+//that are checked by Git and Get-Content.
+
+//ACTUAL RESULT:
+//The correct Git project was opened successfully.
+//WebStorm is now working with the actual Git repository.
+//The correct risk-calculator.test.ts file was found.
+//The completed RiskCalculator tests are present in the correct file.
+//WebStorm and Git now point to the same project folder.
+
+
+//STEP 27 — Check the final Git changes
+//Task: Verify which Homework 7 files have been modified before creating the final commit.
+
+//Terminal command: git status
+
+//EXPECTED RESULT:
+//The completed homework files should appear as modified:
+//- homework-07-notes.ts
+//- test/risk-calculator/risk-calculator.test.ts
+
+//The WebStorm-specific file .idea/.name should remain untracked
+//and should not be included in the homework commit.
+
+//ACTUAL RESULT:
+//Git detected the modified homework files:
+//- homework-07-notes.ts
+//- test/risk-calculator/risk-calculator.test.ts
+
+//The untracked .idea/.name file was detected.
+//It will not be added to the homework commit.
