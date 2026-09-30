@@ -307,24 +307,7 @@
 //ACTUAL RESULT:
 //PENDING — the commit has not been created yet.
 
-
-//STEP 22 — Push the homework notes to GitHub
-//Task: Push the latest commit containing homework-07-notes.ts to GitHub.
-
-//Terminal commands:
-//git add homework-07-notes.ts
-//git commit -m "Add homework 07 notes"
-
-//EXPECTED RESULT:
-//The current version of homework-07-notes.ts is added to the staging area.
-//A new Git commit is created containing the latest changes to the notes file.
-
-//ACTUAL RESULT:
-//A previous commit containing homework-07-notes.ts already exists.
-//After that commit, the notes file was modified again.
-//The current changes are not staged yet.
-
-//STEP 23 — Commit the homework notes
+//STEP 22 — Commit the homework notes
 //Task: Create a Git commit containing the current version of homework-07-notes.ts.
 
 //Terminal commands:
@@ -340,3 +323,19 @@
 //A new commit was created:
 //8be13c5 Update homework 07 notes
 //The commit contains the latest version of homework-07-notes.ts.
+
+//STEP 23 — Push the homework notes to GitHub
+//Task: Push the latest commit containing homework-07-notes.ts to GitHub.
+
+//Terminal commands:
+//git add homework-07-notes.ts
+//git commit -m "Add homework 07 notes"
+
+//EXPECTED RESULT:
+//The current version of homework-07-notes.ts is added to the staging area.
+//A new Git commit is created containing the latest changes to the notes file.
+
+//ACTUAL RESULT:
+//A previous commit containing homework-07-notes.ts already exists.
+//After that commit, the notes file was modified again.
+//The current changes are not staged yet.
