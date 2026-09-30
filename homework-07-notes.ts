@@ -323,3 +323,20 @@
 //A previous commit containing homework-07-notes.ts already exists.
 //After that commit, the notes file was modified again.
 //The current changes are not staged yet.
+
+//STEP 23 — Commit the homework notes
+//Task: Create a Git commit containing the current version of homework-07-notes.ts.
+
+//Terminal commands:
+//git add homework-07-notes.ts
+//git commit -m "Update homework 07 notes"
+
+//EXPECTED RESULT:
+//The current version of homework-07-notes.ts is added to the staging area.
+//A new Git commit is created containing the latest changes to the notes file.
+
+//ACTUAL RESULT:
+//The current changes to homework-07-notes.ts were staged successfully.
+//A new commit was created:
+//8be13c5 Update homework 07 notes
+//The commit contains the latest version of homework-07-notes.ts.
