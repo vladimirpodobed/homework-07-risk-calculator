@@ -217,9 +217,9 @@
 //Task: Add a personal GitHub repository where the completed homework will be pushed.
 
 //Personal repository:
-//https://github.com/vladimirodobed/homework-07-risk-calculator.git
+//https://github.com/vladimirpodobed/homework-07-risk-calculator.git
 
-//Terminal command: git remote add origin https://github.com/vladimirodobed/homework-07-risk-calculator.git
+//Terminal command: git remote add origin https://github.com/vladimirpodobed/homework-07-risk-calculator.git
 
 //ACTUAL RESULT:
 //The personal GitHub repository was added as origin.
@@ -231,7 +231,7 @@
 //Terminal command: git remote -v
 
 //EXPECTED RESULT:
-//origin   https://github.com/vladimirodobed/homework-07-risk-calculator.git
+//origin   https://github.com/vladimirpodobed/homework-07-risk-calculator.git
 //upstream https://github.com/vladimir-tl/calc-ts-jest-template.git
 
 //ACTUAL RESULT:
@@ -256,7 +256,7 @@
 //The GitHub account was checked in WebStorm:
 //Settings → Version Control → GitHub
 
-//The GitHub account vladimiropodobed was already connected.
+//The GitHub account vladimirpodobed was already connected.
 
 //After authentication was corrected, the command was executed again: git push -u origin main
 
@@ -270,7 +270,7 @@
 //STEP 18 — Verify the GitHub repository
 //Task: Open the personal GitHub repository and verify that the homework files are present.
 
-//Repository: https://github.com/vladimiropodobed/homework-07-risk-calculator
+//Repository: https://github.com/vladimirpodobed/homework-07-risk-calculator
 
 //EXPECTED RESULT:
 //The repository contains the completed Homework 7 project.
@@ -299,43 +299,45 @@
 //homework-07-notes.ts was added to the staging area.
 
 
-//STEP 21 — Commit the homework notes
-//Task: Create a commit containing the homework notes.
-
-//Terminal command: git commit -m "Add homework 07 notes"
-
-//ACTUAL RESULT:
-//PENDING — the commit has not been created yet.
-
-//STEP 22 — Commit the homework notes
-//Task: Create a Git commit containing the current version of homework-07-notes.ts.
+///STEP 21 — Commit the homework notes
+//Task: Save the current version of homework-07-notes.ts in Git.
 
 //Terminal commands:
 //git add homework-07-notes.ts
 //git commit -m "Update homework 07 notes"
 
 //EXPECTED RESULT:
-//The current version of homework-07-notes.ts is added to the staging area.
-//A new Git commit is created containing the latest changes to the notes file.
+//The current version of homework-07-notes.ts is committed to Git.
 
 //ACTUAL RESULT:
-//The current changes to homework-07-notes.ts were staged successfully.
-//A new commit was created:
-//8be13c5 Update homework 07 notes
-//The commit contains the latest version of homework-07-notes.ts.
+//The current homework notes were committed successfully.
+//Commit: 3414172 Update homework 07 notes
 
-//STEP 23 — Push the homework notes to GitHub
-//Task: Push the latest commit containing homework-07-notes.ts to GitHub.
+//STEP 22 — Push the homework to GitHub
+//Task: Push the latest local commits to the personal GitHub repository.
 
-//Terminal commands:
-//git add homework-07-notes.ts
-//git commit -m "Add homework 07 notes"
+//Terminal command: git push
 
 //EXPECTED RESULT:
-//The current version of homework-07-notes.ts is added to the staging area.
-//A new Git commit is created containing the latest changes to the notes file.
+//All local commits that are ahead of origin/main are pushed to GitHub.
+//The personal repository contains the latest Homework 7 files and notes.
 
 //ACTUAL RESULT:
-//A previous commit containing homework-07-notes.ts already exists.
-//After that commit, the notes file was modified again.
-//The current changes are not staged yet.
+//PENDING — the latest local commits have not been pushed yet.
+
+//STEP 24 — Finalize and publish Homework 7
+//Task: Save the final version of the homework and publish it to GitHub.
+
+//Terminal commands:
+//git add .
+//git commit -m "Complete homework 07"
+//git push
+
+//EXPECTED RESULT:
+//All final changes are added to the Git staging area.
+//A final commit is created containing the completed Homework 7 project and notes.
+//The final commit is pushed to origin/main.
+//The GitHub repository contains the latest version of the homework.
+
+//ACTUAL RESULT:
+//PENDING — the final commit and push have not been executed yet.
