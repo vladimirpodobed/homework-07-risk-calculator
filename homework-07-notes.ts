@@ -409,3 +409,41 @@
 
 //The untracked .idea/.name file was detected.
 //It will not be added to the homework commit.
+
+//STEP 28 — Stage the final Homework 7 files
+//Task: Add only the required Homework 7 files to the Git staging area.
+
+//Files to include:
+//- homework-07-notes.ts
+//- test/risk-calculator/risk-calculator.test.ts
+
+//Terminal command: git add homework-07-notes.ts test/risk-calculator/risk-calculator.test.ts
+
+//EXPECTED RESULT:
+//Both Homework 7 files appear under "Changes to be committed".
+
+//The WebStorm-specific file .idea/.name must remain untracked
+//and must not be included in the homework commit.
+
+//ACTUAL RESULT:
+//The two required Homework 7 files were added to the staging area.
+//.idea/.name remains untracked and was not added.
+
+
+//STEP 30 — Push the completed Homework 7 to GitHub
+//Task: Upload the latest committed Homework 7 changes to the personal GitHub repository.
+
+//Repository: https://github.com/vladimirpodobed/homework-07-risk-calculator
+
+//Terminal command: git push
+
+//EXPECTED RESULT:
+//The local commit 006d515 is pushed to origin/main.
+
+//The following Homework 7 files are available on GitHub:
+//- test/risk-calculator/risk-calculator.test.ts
+//- homework-07-notes.ts
+//.idea/.name is not included in the commit.
+
+//ACTUAL RESULT:
+//The Homework 7 commit was pushed to GitHub successfully.
