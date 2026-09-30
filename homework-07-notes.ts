@@ -305,15 +305,21 @@
 //Terminal command: git commit -m "Add homework 07 notes"
 
 //ACTUAL RESULT:
-//The homework notes were committed to Git.
+//PENDING — the commit has not been created yet.
 
 
 //STEP 22 — Push the homework notes to GitHub
 //Task: Push the latest commit containing homework-07-notes.ts to GitHub.
 
-//Terminal command: git push
+//Terminal commands:
+//git add homework-07-notes.ts
+//git commit -m "Add homework 07 notes"
+
+//EXPECTED RESULT:
+//The current version of homework-07-notes.ts is added to the staging area.
+//A new Git commit is created containing the latest changes to the notes file.
 
 //ACTUAL RESULT:
-//The latest commit was pushed to origin/main.
-//The homework-07-notes.ts file is now available in the GitHub repository.
-
+//A previous commit containing homework-07-notes.ts already exists.
+//After that commit, the notes file was modified again.
+//The current changes are not staged yet.
